@@ -1,0 +1,126 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <s:Header>
+        <h:ServiceHeader u:Id="_2" xmlns:h="http://asguf.mos.ru/rkis_gu/coordinate/v5/"
+                         xmlns="http://asguf.mos.ru/rkis_gu/coordinate/v5/"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <FromOrgCode>1111</FromOrgCode>
+            <ToOrgCode>4028</ToOrgCode>
+            <MessageId>c6daa786-336a-48d2-ae03-b87b32ab2f80</MessageId>
+            <ServiceNumber>4028-9000059-010197-000000/18/8713115</ServiceNumber>
+            <RequestDateTime>2018-12-25T08:33:42+03:00</RequestDateTime>
+        </h:ServiceHeader>
+        <Security s:actor="RSMEVAUTH"
+                  xmlns="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <o:BinarySecurityToken u:Id="uuid-a88d4710-989c-47fc-ae3c-6b07c04aa7b4-181962"
+                                   ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"
+                                   EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary"
+                                   xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                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
+            </o:BinarySecurityToken>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <SignedInfo>
+                    <CanonicalizationMethod
+                            Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+                    <SignatureMethod
+                            Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"></SignatureMethod>
+                    <Reference URI="#_1">
+                        <Transforms>
+                            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"></DigestMethod>
+                        <DigestValue>F3rv12flbBwkeyDxemn8qPGMDAqa4dY9GsJ7B7/uR48=</DigestValue>
+                    </Reference>
+                    <Reference URI="#_2">
+                        <Transforms>
+                            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"></DigestMethod>
+                        <DigestValue>Hv4DXjoZEFQSRxqdJ0FMMvLSoIya1v3xf58QynFA3uY=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>
+                    JBTPTkExiACw+gWamv6qCbNphoorNnloDcoYgr93H3kapBsxKU9XkvsVpX8acHAoJw5khK8O+F4nWoAOSsQSDQ==
+                </SignatureValue>
+                <KeyInfo>
+                    <o:SecurityTokenReference
+                            xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                        <o:Reference
+                                ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"
+                                URI="#uuid-a88d4710-989c-47fc-ae3c-6b07c04aa7b4-181962"></o:Reference>
+                    </o:SecurityTokenReference>
+                </KeyInfo>
+            </Signature>
+        </Security>
+    </s:Header>
+    <s:Body u:Id="_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    >
+        <StatusMessage xmlns="http://asguf.mos.ru/rkis_gu/coordinate/v5/">
+            <RequestId>57c4b8cd-7264-305f-a9ed-961d26f470e1</RequestId>
+            <ResponseDate>2018-12-25T05:33:42.751Z</ResponseDate>
+            <PlanDate xsi:nil="true"></PlanDate>
+            <StatusCode>1004</StatusCode>
+            <Documents>
+                <ServiceDocument>
+                    <DocCode>10615</DocCode>
+                    <DocDate>2018-12-25T05:33:42.751Z</DocDate>
+                    <ValidityPeriod xsi:nil="true"></ValidityPeriod>
+                    <ListCount xsi:nil="true"></ListCount>
+                    <CopyCount xsi:nil="true"></CopyCount>
+                    <DocFiles></DocFiles>
+                    <CustomAttributes>
+                        <AppData xmlns="http://smev.gosuslugi.ru/rev111111"
+                        >
+                            <RequestData xmlns="http://armd.ru/appData/rev111111/">
+                                <carCriteria xmlns="http://dssi.armd.ru/mvd/gibdd/fis/1.0/">
+                                    <regNo>Е518ВН750</regNo>
+                                    <date>2018-12-26T00:00:00</date>
+                                </carCriteria>
+                            </RequestData>
+                            <ResponseData xmlns="http://armd.ru/appData/rev111111/">
+                                <operations xmlns="http://dssi.armd.ru/mvd/gibdd/fis/1.0/">
+                                    <operation>
+                                        <lastName>ТРЫКИН</lastName>
+                                        <firstName>ПЕТР</firstName>
+                                        <middleName>ИВАНОВИЧ</middleName>
+                                        <birthday>1952-02-04T00:00:00</birthday>
+                                        <region>г. Москва</region>
+                                        <area>БАСМАННЫЙ (ЦАО) Р-Н</area>
+                                        <street>БРИГАДИРСКwwИЙ ПЕР.</street>
+                                        <house>3-5</house>
+                                        <apartment>102</apartment>
+                                        <departmentCode>152</departmentCode>
+                                        <registrationPlate>Е518ВН750</registrationPlate>
+                                        <brandAndModel>ФОРД КУГА</brandAndModel>
+                                        <vehicleCategory>В</vehicleCategory>
+                                        <vin>Z6FАХХЕSМАЕR26291</vin>
+                                        <maxAllowedWeight>2200</maxAllowedWeight>
+                                        <weightWithoutLoad>1682</weightWithoutLoad>
+                                        <color>БЕЛЫЙ</color>
+                                        <registrationDocument>5032870509</registrationDocument>
+                                        <registrationDate>2015-05-16T00:00:00</registrationDate>
+                                        <personType>2</personType>
+                                        <ownerBirthPlace>РЯЗАНСКАЯ ОБЛ. С.ОСТРОВКА МОЖАРСКОГО Р-Н</ownerBirthPlace>
+                                        <citizenship>РОССИЙСКАЯ ФЕДЕРАЦИЯ</citizenship>
+                                        <sex>1</sex>
+                                        <ownerPhone>9166789410</ownerPhone>
+                                        <productionYear>2014</productionYear>
+                                        <powerHp>149qq</powerHp>
+                                        <powerKwt>110</powerKwt>
+                                        <engineVolume>1596</engineVolume>
+                                    </operation>
+                                </operations>
+                            </ResponseData>
+                        </AppData>
+                    </CustomAttributes>
+                </ServiceDocument>
+            </Documents>
+            <Note>Получен ответ из ФОИВ/ОИВ по запросу документа</Note>
+            <Result>
+                <ResultCode>1</ResultCode>
+            </Result>
+            <ServiceNumber>4028-9000059-010197-000000/18/8713115</ServiceNumber>
+            <ReasonCode>1</ReasonCode>
+        </StatusMessage>
+    </s:Body>
+</s:Envelope>

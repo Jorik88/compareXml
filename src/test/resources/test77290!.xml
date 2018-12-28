@@ -1,0 +1,161 @@
+<Extract xmlns="">
+    <eDocument CodeType="111" Version="06" Scope="EGRP">
+        <Sender Kod="77" Name="Управление Росреестра по Москве" Region="77" Date_Upload="2018K02K05"
+                Appointment="ВЕДУЩИЙ ТЕХНОЛОГ" FIO="Иванова Мария Ивановна"
+                Telephone="IvanovaMI@U77.ROSREESTR.RU 8 (495) 100K10K10 (10K10)"/>
+        <Recipient Kod="071000000401" Name="Портал госуслуг"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="00000000000000" ExtractTypeCode="000000" ExtractTypeText="Выписка из
+Единого государственного реестра недвижимости об основных характеристиках и зарегистрированных
+правах на объект недвижимости" ExtractNumber="77/000/000/2018K1000" ExtractDate="01.01.0001"
+                         RequeryNumber="77/000/000/2018K1000" RequeryDate="01.01.0001" ExtractCount="1" NoticeCount="0"
+                         RefuseCount="0" Registrator="Иванова М.И.">
+            <ReceivName>Иванов И.И.</ReceivName>
+            <Representativ>уполномоченное лицо: Государственная инспекция по контролю за использованием
+                объектов недвижимости города Москвы
+            </Representativ>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>000000dd00000000</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И
+                    КАРТОГРАФИИ
+                </Title>
+                <DeptName>ФИЛИАЛ ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО БЮДЖЕТНОГО
+                    УЧРЕЖДЕНИЯ"ФЕДЕРАЛЬНАЯ КАДАСТРОВАЯ ПАЛАТА ФЕДЕРАЛЬНОЙ СЛУЖБЫ
+                    ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ,КАДАСТРА И КАРТОГРАФИИ" ПО МОСКВЕ
+                </DeptName>
+                <ExtractTitle>ВЫПИСКА ИЗ ЕДИНОГО ГОСУДАРСТВЕННОГО РЕЕСТРА ПРАВ НА
+                    НЕДВИЖИМОЕ ИМУЩЕСТВО И СДЕЛОК С НИМ
+                </ExtractTitle>
+                <Content>На основании запроса от 01.01.0001 г., поступившего на рассмотрение 01.01.0001 г.
+                    сообщаем, что в Едином государственном реестре прав на недвижимое имущество и сделок с ним
+                    зарегистрировано:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <ObjectDesc>
+                        <ID_Object>000000000</ID_Object>
+                        <CadastralNumber>77:00:0000000:0000</CadastralNumber>
+                        <ObjectType>002002002dd000</ObjectType>
+                        <ObjectTypeText>нежилое помещение</ObjectTypeText>
+                        <Name>помещение</Name>
+                        <Assignation_Code>005002000000</Assignation_Code>
+                        <Assignation_Code_Text>Нежилое помещение</Assignation_Code_Text>
+                        <Area>
+                            <Area>270.50</Area>
+                            <AreaText>270.5 кв.м</AreaText>
+                            <Unit>000000000000</Unit>
+                        </Area>
+                        <Floor>1</Floor>
+                        <FloorPlan_No>
+                            <Explication>этаж 1, помещение 2 K комнаты с 1 по 13</Explication>
+                        </FloorPlan_No>
+                        <Address>
+                            <ID_Address>000000000</ID_Address>
+                            <Content>адрес</Content>
+                            <Region Code="77" Name="г.Москва"/>
+                            <Code_OKATO>00000000000</Code_OKATO>
+                            <Code_KLADR>77000000000000000</Code_KLADR>
+                            <Street Name="ул.Тестовая"/>
+                            <Level1 Name="д.10"/>
+                        </Address>
+                    </ObjectDesc>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>00000000000</ID_Subject>
+                            <Organization>
+                                <Code_SP>000002000000</Code_SP>
+                                <Content>Общество с ограниченной ответственностью "Наименование", ИНН: 0000000000, ОГРН:
+                                    0000000000000
+                                </Content>
+                                <Code_OPF>000001000000</Code_OPF>
+                                <Name>Общество с ограниченной ответственностью "наименование"</Name>
+                                <INN>0000000000</INN>
+                                <Code_OGRN>0000000000000</Code_OGRN>
+                                <RegDate>11.11.2000</RegDate>
+                                <AgencyRegistration>Межрайонная инспекция МНС России No 46 по г.Москве
+                                </AgencyRegistration>
+                                <Code_CPP>000001001</Code_CPP>
+                                <Location>
+                                    <ID_Address>00005001</ID_Address>
+                                    <Content>адрес</Content>
+                                    <Region Code="77" Name="г.Москва"/>
+                                    <Code_OKATO>45000000000</Code_OKATO>
+                                    <Code_KLADR>77000000000000000</Code_KLADR>
+                                    <Street Name="ул.Тестовая"/>
+                                    <Level1 Name="д.10"/>
+                                    <Level2 Name="корп.1"/>
+                                </Location>
+                            </Organization>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>0000000000001</ID_Record>
+                            <RegNumber>77:00:0000000:0000K00/000/2017K1</RegNumber>
+                            <Type>001001000000</Type>
+                            <Name>Собственность, No 00:00:0000000:0000K77/000/2017K1 от 01.01.0001</Name>
+                            <RegDate>01.01.0001</RegDate>
+                            <RestorCourt/>
+                        </Registration>
+                        <Encumbrance EncumbNumber="1">
+                            <ID_Record>0000000000001</ID_Record>
+                            <RegNumber>77:00:0000000:0000K77/000/2017K2</RegNumber>
+                            <Type>000000000000</Type>
+                            <Name>Ипотека</Name>
+                            <RegDate>01.01.0001</RegDate>
+                            <Duration>
+                                <Started>01.01.0001</Started>
+                                <Stopped>01.01.0001</Stopped>
+                                <Term>с 01.01.0001 по 01.01.0001</Term>
+                            </Duration>
+                            <Owner>
+                                <ID_Subject>000000001</ID_Subject>
+                                <Governance>
+                                    <Code_SP>007000000002</Code_SP>
+                                    <Content>город Москва</Content>
+                                    <Name>город Москва</Name>
+                                    <OKATO_Code>45000000000</OKATO_Code>
+                                    <Country>Российская Федерация</Country>
+                                    <Address>г.Москва</Address>
+                                </Governance>
+                            </Owner>
+                            <DocFound>
+                                <ID_Document>0000000000001</ID_Document>
+                                <Content>Договор куплиKпродажи недвижимости (нежилого помещения) oт 01.01.0001 No00K
+                                    0000
+                                </Content>
+                                <Type_Document>010000000000</Type_Document>
+                                <Name>Договор куплиKпродажи недвижимости (нежилого помещения)</Name>
+                                <Number>00K0000</Number>
+                                <Date>01.08.2017</Date>
+                            </DocFound>
+                        </Encumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+            </ExtractObject>
+            <FootContent>
+                <Recipient>Иванов Иван Иванович, уполномоченное лицо от имени представляемого: Тестовый
+                    департамент города Москвы
+                </Recipient>
+                <ExtractDate>01.01.0001</ExtractDate>
+                <Content>Выписка содержит сведения раздела Единого государственного реестра прав на недвижимое
+                    имущество и сделок с ним, ведение которого осуществляется Управлением Росреестра по Москве.
+                    Сведения, содержащиеся в настоящем документе, являются актуальными (действительными) на
+                    датуполучения запроса органом, осуществляющим государственную регистрацию прав. В соответствии со
+                    статьей 7 Федерального закона от 21 июля 1997 г. No122KФЗ "О государственной регистрации прав на
+                    недвижимое имущество и сделок с ним" использование сведений, содержащихся в настоящей выписке,
+                    способами или в форме, которые наносят ущерб правам и законным интересам правообладателей, влечет
+                    ответственность, предусмотренную законодательством Российской Федерации.
+                </Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</Extract>
